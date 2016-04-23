@@ -44,12 +44,12 @@ h1.please {
   font-family: 'Satisfy', serif;
   padding-top: 20px;
   color: #fff;
-  animation: fadeup 2s ease-out;
-  -webkit-animation: fadeup 2s ease-out;
+  animation: fadeup 3s ease-out;
+  -webkit-animation: fadeup 3s ease-out;
 }
 h1.believe {
   font-family: 'Quicksand', sans-serif;
-  padding-top: 150px;
+  padding-top: 130px;
   animation: colorrotate 20s infinite;
   -webkit-animation: colorrotate 20s infinite;
 }
@@ -58,12 +58,12 @@ p {
   width: 100%;
   color: #fff;
   font-family: 'Quicksand', sans-serif;
-  padding-top: 300px;
+  padding-top: 290px;
   font-size: 20px;
 }
 
 @media (max-width: 590px) {
-  p { padding-top: 400px; }
+  p { padding-top: 390px; }
 }
 
 
