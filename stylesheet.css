@@ -35,21 +35,21 @@ body {
 /*Headers*/
 
 h1 {
-  font-size: 4em;
+  font-size: 80px;
   position: absolute;
   width: 100%;
   font-weight: normal;
 }
 h1.please {
   font-family: 'Satisfy', serif;
-  padding-top: 40px;
+  padding-top: 20px;
   color: #fff;
-  animation: fadeup 3s ease-out;
-  -webkit-animation: fadeup 3s ease-out;
+  animation: fadeup 2s ease-out;
+  -webkit-animation: fadeup 2s ease-out;
 }
 h1.believe {
   font-family: 'Quicksand', sans-serif;
-  padding-top: 130px;
+  padding-top: 150px;
   animation: colorrotate 20s infinite;
   -webkit-animation: colorrotate 20s infinite;
 }
@@ -58,7 +58,12 @@ p {
   width: 100%;
   color: #fff;
   font-family: 'Quicksand', sans-serif;
-  padding-top: 250px;
+  padding-top: 300px;
+  font-size: 20px;
+}
+
+@media (max-width: 590px) {
+  p { padding-top: 400px; }
 }
 
 
@@ -86,3 +91,7 @@ p {
   100% { color: #d4d4d4; }
 }
 
+$mobile: new-breakpoint(max-width 480px);
+$tablet: new-breakpoint(min-width 481px);
+$laptop: new-breakpoint(min-width 768px);
+$desktop: new-breakpoint(min-width 993px);
