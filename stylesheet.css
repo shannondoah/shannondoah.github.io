@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #ccc;
+  backface-visibility: visible;
   margin: auto;
   width: 100%;
   height: 100%;
