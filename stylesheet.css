@@ -90,8 +90,3 @@ p {
   90% { color: #ccccee; }
   100% { color: #d4d4d4; }
 }
-
-$mobile: new-breakpoint(max-width 480px);
-$tablet: new-breakpoint(min-width 481px);
-$laptop: new-breakpoint(min-width 768px);
-$desktop: new-breakpoint(min-width 993px);
