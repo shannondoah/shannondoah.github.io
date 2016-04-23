@@ -4,7 +4,8 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed !important;
+  background-attachment: fixed;
+  z-index: -1;
   background-color: #ccc;
   backface-visibility: visible;
   margin: auto;
