@@ -4,7 +4,6 @@ html, body {
   height: 100%;
 }
 body {
-  background-image: url('big_unicorn.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -44,8 +43,8 @@ h1.please {
   font-family: 'Satisfy', serif;
   padding-top: 20px;
   color: #fff;
-  animation: fadeup 3s ease-out;
-  -webkit-animation: fadeup 3s ease-out;
+  animation: fadeup 1s ease-out;
+  -webkit-animation: fadeup 1s ease-out;
 }
 h1.believe {
   font-family: 'Quicksand', sans-serif;
@@ -65,7 +64,6 @@ p {
 @media (max-width: 590px) {
   p { padding-top: 390px; }
 }
-
 
 @keyframes fadeup {
   from {top:200px; opacity: 0;}
