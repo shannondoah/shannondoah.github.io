@@ -50,6 +50,17 @@ p {
   font-size: 1.2em;
 }
 
+.unimpressed {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  max-width: 500px;
+  width: 70%;
+}
+
 a {
   color: #399367;
 }
